@@ -36,7 +36,7 @@ This will grab whatever dependencies are needed, and start the services with a w
 change the code. If you don't have Deno available you can run the less-interactive Docker image like so:
 
 ```sh
-> docker compose up --build
+> sudo docker compose up --build
 ```
 
 While the demo is fairly feature-complete, insert your favorite disclaimer about polishing some things up a
