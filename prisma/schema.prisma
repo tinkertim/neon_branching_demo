@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model Finishers {
+  id            Int         @id @default(autoincrement())
+  discord_name  String      @db.VarChar(255)
+  fulfilled     DateTime?
+  name          String      @db.VarChar(255)
+  address       String      @db.VarChar(255)
+  city          String      @db.VarChar(255)
+  state         String      @db.VarChar(255)
+  zip           String      @db.VarChar(255)
+  size          String      @db.VarChar(255)
+}
+
+model Promises {
+  id            Int         @id @default(autoincrement())
+  discord_id    BigInt
+  discord_name  String      @db.VarChar(255)
+  summary       String      @db.VarChar(255)
+  url           String?     @db.VarChar(255)
+  completed     DateTime?
+}
