@@ -24,7 +24,7 @@ You'll need to [sign up for Neon](https://neon.tech), of course. You'll need a D
 [which you can obtain here](https://discord.com/developers) after you watch this [extremely helpful 2-minute
 video on how to get the correct secret quickly](https://www.loom.com/share/b130a869382946f7a6049b446154408a).
 
-You can also, optionally, just [watch a quick demo of the bot functioning](https://www.loom.com/share/cd8c138d1d20485c9ff0bae987abf871?sid=7f65dd42-41fc-4427-9b4c-72cc2c832f6b)nif you're simply curious.
+You can also, optionally, just [watch a quick demo of the bot functioning](https://www.loom.com/share/cd8c138d1d20485c9ff0bae987abf871?sid=7f65dd42-41fc-4427-9b4c-72cc2c832f6b) if you're simply curious.
 
 If you have Deno installed, navigate to the repository root and just run:
 
