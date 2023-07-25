@@ -42,7 +42,7 @@ app.post("/secret", async (req, res) => {
     );
   } catch (error) {
     console.error(error);
-    res.sendStatus(500).sendFile(
+    res.status(500).sendFile(
       new URL(".", import.meta.url).pathname + "/html/error.html",
     );
   }
