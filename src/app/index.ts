@@ -33,7 +33,7 @@ app.post("/secret", async (req, res) => {
   try {
     await sql`
       INSERT INTO "Finishers" 
-      ( "discord_name", "name", "address", "city", "state", "zip", "size" )
+      ( discord_name, name, address, city, state, zip, size )
       values
       (${discord_name}, ${name}, ${address}, ${city}, ${state}, ${zip}, ${size})
     `;
