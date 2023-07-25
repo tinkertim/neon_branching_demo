@@ -29,6 +29,14 @@ You can also, optionally, just [watch a quick demo of the bot functioning](https
 If you have Deno installed, navigate to the repository root and just run:
 
 ```sh
+npx prisma migrate dev
+```
+
+This will (if your database string is configured correctly) initialize the database schema.
+
+Next, start the development server:
+
+```sh
 > deno task dev
 ```
 
