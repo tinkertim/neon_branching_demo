@@ -40,8 +40,7 @@ Next, start the development server:
 > deno task dev
 ```
 
-This will grab whatever dependencies are needed, and start the services with a watcher so it restarts if you
-change the code. If you don't have Deno available you can run the less-interactive Docker image like so:
+This will grab whatever dependencies are needed, and start the services with a watcher so it restarts if you change the code. If you don't have Deno available you can run the less-interactive Docker image like so:
 
 ```sh
 > sudo docker compose up --build
