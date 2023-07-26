@@ -1,6 +1,6 @@
 # Neon Discord Prize Bot - Companion Repository
 
-![Discord Prize Bot](assets/prizebot.png)
+![Discord Prize Bot](assets/neon-branching-overview.png)
 
 This is the companion repository for the [Neon's Branching Tutorial](#), which you should
 definitely read before diving in here.
@@ -29,7 +29,7 @@ You can also, optionally, just [watch a quick demo of the bot functioning](https
 If you have Deno installed, navigate to the repository root and just run:
 
 ```sh
-npx prisma migrate dev
+> npx prisma migrate dev
 ```
 
 This will (if your database string is configured correctly) initialize the database schema.
