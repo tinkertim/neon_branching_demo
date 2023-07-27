@@ -2,8 +2,7 @@
 
 ![Discord Prize Bot](assets/neon-branching-overview.png)
 
-This is the companion repository for the [Neon's Branching Tutorial](#), which you should
-definitely read before diving in here.
+This is the companion repository for the [Neon's Branching Tutorial](https://neon.tech/blog/discord-bot-neon-branching), which you should definitely read before diving in here.
 
 ## What's Here?
 
